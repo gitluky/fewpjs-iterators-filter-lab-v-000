@@ -6,3 +6,7 @@ function findMatching(arr, name) {
 function fuzzyMatch(arr, name) {
   return arr.filter(x => x[0].toUpperCase() === name[0].toUpperCase());
 }
+
+function matchName(arr, name) {
+  return arr.filter(x => x.name === name);
+}
